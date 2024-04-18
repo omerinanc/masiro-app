@@ -1,0 +1,58 @@
+header {
+  font-size: 48px;
+  text-align: center;
+  color: #003b5c;
+}
+body {
+  color: rgb(220, 169, 169);
+  font-family: "Poppins", sans-serif;
+  min-height: 100vh;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.input-entry {
+  max-width: fit-content !important;
+  margin: 0px 5px 0px 5px;
+  padding: 5px;
+  border-style: solid !important;
+  border-color: #003b5c !important;
+  border-radius: 6px;
+  border-width: 1px;
+}
+form {
+  display: flex !important;
+  flex-direction: column !important;
+  flex-wrap: wrap !important;
+  align-items: center;
+  justify-content: center;
+  border-style: solid !important;
+  border-color: #003b5c !important;
+  border-radius: 10px;
+  border-width: 3px;
+  max-width: 1500px;
+  color: black;
+  padding: 1em !important;
+}
+.div-main {
+  display: flex !important;
+  justify-content: center;
+}
+.div-checkbox {
+  max-height: fit-content !important;
+  display: flex !important;
+  flex-direction: column !important;
+  flex-wrap: wrap !important;
+  margin: 0px 5px 5px 5px;
+  padding: 5px;
+  border-style: solid !important;
+  border-color: #003b5c !important;
+  border-radius: 6px;
+  border-width: 1px;
+}
+.popup {
+  border-style: solid !important;
+  border-color: #0acf4f !important;
+  border-radius: 6px;
+  border-width: 1px;
+  color: green;
+}

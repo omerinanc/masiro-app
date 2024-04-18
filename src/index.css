@@ -1,0 +1,245 @@
+h1 {
+  font-size: 48px;
+  text-align: center;
+  color: #003b5c;
+}
+body {
+  color: rgb(220, 169, 169);
+  font-family: "Poppins", sans-serif;
+  min-height: 100vh;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.input-entry {
+  max-width: fit-content !important;
+  margin: 0px 5px 0px 5px;
+  padding: 5px;
+  border-style: solid !important;
+  border-color: #003b5c !important;
+  border-radius: 6px;
+  border-width: 1px;
+}
+form {
+  display: flex !important;
+  flex-direction: column !important;
+  flex-wrap: wrap !important;
+  align-items: center;
+  justify-content: center;
+  border-style: solid !important;
+  border-color: #003b5c !important;
+  border-radius: 10px;
+  border-width: 3px;
+  max-width: 1500px;
+  color: black;
+  padding: 1em !important;
+}
+.div-main {
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column !important;
+  color: #003b5c;
+  padding: 0px 50px;
+}
+.div-checkbox {
+  max-height: fit-content !important;
+  display: flex !important;
+  flex-direction: column !important;
+  flex-wrap: wrap !important;
+  margin: 0px 5px 5px 5px;
+  padding: 5px;
+  border-style: solid !important;
+  border-color: #003b5c !important;
+  border-radius: 6px;
+  border-width: 1px;
+}
+p {
+  font-size: 20px;
+  text-align: center;
+  color: #003b5c;
+}
+h3 {
+  text-align: center;
+  margin: 2px;
+  color: #003b5c;
+}
+#h2-post {
+  text-align: left;
+  margin: 2px;
+}
+.button-52 {
+  font-size: 16px;
+  font-weight: 200;
+  letter-spacing: 1px;
+  margin: 4px;
+  padding: 8px 13px 8px;
+  outline: 0;
+  color: #ffffff;
+  border: 1px solid black;
+  cursor: pointer;
+  position: relative;
+  background-color: rgba(0, 0, 0, 0);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+ul {
+  margin-block-end: 0em !important;
+  padding: 0;
+}
+.button-52:after {
+  content: "";
+  background-color: #003b5c;
+  width: 100%;
+  z-index: -1;
+  position: absolute;
+  height: 100%;
+  top: 4px;
+  left: 4px;
+  transition: 0.2s;
+}
+
+.button-52:hover:after {
+  top: 0px;
+  left: 0px;
+}
+.div-post {
+  margin: 10px;
+  padding: 10px;
+}
+.input-post {
+  width: 500px;
+  height: 30px;
+  margin: auto;
+  border: 3px solid #003b5c;
+}
+.user-post-container {
+  margin-top: 50px;
+  padding: 0px 20px 0px 20px;
+  border-style: solid !important;
+  border-color: #003b5c !important;
+  border-radius: 6px;
+  border-width: 3px;
+}
+.post-content {
+  border-style: solid !important;
+  border-color: #003b5c !important;
+  border-radius: 6px;
+  border-width: 3px;
+}
+.user-post {
+  background: rgb(0, 59, 92);
+  background: linear-gradient(
+    90deg,
+    rgba(0, 59, 92, 1) 0%,
+    rgba(15, 110, 163, 1) 35%,
+    rgba(11, 145, 172, 1) 100%
+  );
+  border-radius: 6px;
+  text-align: left;
+  color: white;
+  padding: 5px;
+  margin: 10px 0px;
+  font-size: 20px;
+  max-height: fit-content;
+  height: 30px;
+}
+.user-post-edit {
+  font-size: 20px;
+  background: rgb(0, 59, 92);
+  background: linear-gradient(
+    90deg,
+    rgba(0, 59, 92, 1) 0%,
+    rgba(15, 110, 163, 1) 35%,
+    rgba(11, 145, 172, 1) 100%
+  );
+  border: none;
+  resize: none;
+  text-align: left;
+  color: white;
+  width: 100%;
+  height: 30px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.user-post::first-letter,
+.user-post-edit::first-letter {
+  text-transform: capitalize;
+}
+.user-name-header {
+  text-align: center;
+  margin: 2px;
+  color: #003b5c;
+}
+#posts {
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 0px;
+}
+.edit-delete-button {
+  float: right;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.update-button,
+.cancel-button {
+  height: fit-content;
+  float: right;
+  margin: 0px 5px;
+}
+
+.edit-button {
+  margin: 0px 5px;
+}
+.deneme {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.profile-container {
+  width: fit-content;
+  text-align: center;
+}
+.profile-page {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.popup {
+  margin: 5px;
+  padding: 5px;
+  border-style: solid !important;
+  border-color: #0acf4f !important;
+  border-radius: 6px;
+  border-width: 3px;
+  color: green;
+}
+.popup-content {
+  color: green;
+}
+.home {
+  text-align: center;
+  margin: 2px;
+  color: #003b5c;
+  padding: 0px 50px;
+}
+.dashboard-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.home-container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  /* align-items: space-around; */
+}
+.div-login {
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column !important;
+  color: #003b5c;
+  /* padding: 100px 0px 0px 0px; */
+}
